@@ -21,6 +21,7 @@ public class MemberFileReader {
 			m.setUid(strArr[0]);
 			m.setUpw(strArr[1]);
 			m.setUname(strArr[2]);
+			System.out.println(m.getUid() + m.getUpw() + m.getUname());
 			retObj.add(m);			
 		}
 		return retObj;
